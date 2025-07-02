@@ -8,9 +8,10 @@ body
 .main-header{
     margin-top: 10px;
 }
+
 img.head-img-logo {
-    width: 25px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 ul.connect-link {
@@ -48,5 +49,8 @@ a.nav-link:hover {
 
 a.navbar-brand {
     color: black;
+}
+a:hover {
+    color: #6610f2 !important;
 }
 /* Navigation Ends */
