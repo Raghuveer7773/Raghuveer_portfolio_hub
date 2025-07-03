@@ -54,3 +54,49 @@ a:hover {
     color: #6610f2 !important;
 }
 /* Navigation Ends */
+
+
+
+/* Home page starts*/
+section.home-page {
+    margin-top: 80px;
+}
+
+img.my_profile {
+    width: 120px;
+    height: 100px;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+h1.home-head {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+img.focus {
+    width: 120px;
+    height: 100px;
+    
+}
+
+.home-para{
+    font-size: 20px;
+    margin-right: 0;
+    width: 500px;
+}
+
+h1.home-head.one {
+    padding-right: 240px;
+    margin-bottom: 40px;
+}
+
+
+h1.home-head.two {
+    padding-left: 310px;
+}
+
+.row.\32 {
+    margin-bottom: 40px;
+}
+/* Ḥome page ends */
