@@ -100,3 +100,47 @@ h1.home-head.two {
     margin-bottom: 40px;
 }
 /* Ḥome page ends */
+
+
+
+/* About me page starts */
+section#about-me {
+    margin-top: 150px;
+}
+
+span.text-center {
+    color: #6610F2;
+}
+
+h4.aboutme-data {
+    font-size: 46px;
+    line-height: 70px;
+}
+
+p.data-para {
+    font-size: 28px;
+    line-height: 50px;
+}
+
+p.aboutme-para {
+    font-size: 28px;
+    line-height: 50px;
+    padding-left: 50px;
+    word-spacing: 5px;
+}
+
+span.about-info-title {
+    color: #6610F2;
+    font-size: 65px;
+    font-weight: 500;
+}
+
+span.about-info-name {
+    font-size: 25px;
+    
+font-weight: 400;
+    
+color: #56595c;
+    
+}
+/* About me page ends here */
