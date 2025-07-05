@@ -144,3 +144,42 @@ color: #56595c;
     
 }
 /* About me page ends here */
+
+
+
+/* Experince Page starts here */
+section#experince {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.exp-duration {
+    display: flex;
+    justify-content: space-between;
+}
+
+p.exp-sub-para {
+    color: #A4A5A7;
+    font-size: 25px;
+}
+
+h4.senior-head {
+    font-size: 32px;
+}
+
+h4.lead-head {
+    font-size: 32px;
+}
+
+h4.junior-head {
+    font-size: 32px;
+}
+
+h4.designer-head {
+    font-size: 32px;
+}
+
+p.exp-para {
+    font-size: 25px;
+}
+/* Experince Page ends here */
