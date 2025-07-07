@@ -183,3 +183,27 @@ p.exp-para {
     font-size: 25px;
 }
 /* Experince Page ends here */
+
+
+/* Skills section starts here */
+section#skills {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.skills-subp {
+    display: flex;
+    justify-content: space-between;
+}
+
+h4.skills-head {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: xx-large;
+}
+
+p.skills-para {
+    font-size: 20px;
+}
+/* Skills section starts here */
+
