@@ -206,3 +206,75 @@ p.skills-para {
 }
 /* Skills section starts here */
 
+
+
+/* Achievements page */
+.featured {
+    display: flex;
+}
+
+.creator {
+    display: flex;
+}
+
+.best {
+    display: flex;
+}
+
+.rising {
+    display: flex;
+}
+
+.excellence {
+    display: flex;
+}
+
+.innovation {
+    display: flex;
+}
+
+h5.awa-no {
+    color: #C3C4C5;
+    font-size: 30px;
+}
+
+h4.award-head {
+    font-size: 30px;
+}
+
+h5.award-year {
+    color: #8A8C8E;
+    font-size: 30px;
+}
+
+h5.sub-awrad {
+    font-size: 20px;color: #8A8C8E;
+}
+
+.cv-download {
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+a.download-btn {
+    text-decoration: none;
+    color: #6610F2;
+}
+
+button.cv-download-btn {
+    padding: 15px 25px 15px 25px;
+    border-radius: 8px;
+    border: 1px solid #6610F2;
+}
+
+button.cv-download-btn:hover {
+    background-color: #6610F2;
+    
+}
+
+a.download-btn:hover {
+    color: white;
+}
+/* Achievements page */
