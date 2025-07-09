@@ -1,0 +1,109 @@
+/* Media query for 1280px */
+
+@media (max-width: 1280px) {
+  /* About me page media query */
+  h4.aboutme-data {
+    font-size: 35px;
+    line-height: 60px;
+  }
+
+  p.data-para {
+    font-size: 23px;
+    line-height: 40px;
+  }
+
+  p.aboutme-para {
+    font-size: 25px;
+    line-height: 40px;
+    padding-left: 40px;
+    word-spacing: 4px;
+  }
+
+  span.about-info-title {
+    color: #6610f2;
+    font-size: 60px;
+    font-weight: 400;
+  }
+  /* About me page media query */
+
+  /* Achievements page media query starts here */
+  h5.awa-no {
+    color: #c3c4c5;
+    font-size: 25px;
+  }
+  h4.award-head {
+    font-size: 25px;
+  }
+  h5.sub-awrad {
+    font-size: 18px;
+    color: #8a8c8e;
+  }
+  h5.award-year {
+    color: #8a8c8e;
+    font-size: 25px;
+  }
+  .achievements-head {
+    font-size: 35px;
+  }
+  /* Achievements page media query starts here */
+
+
+
+  /* Home Page media query starts here */
+  h1.home-head.one {
+    font-size: 85px;
+  }
+  h1.home-head.three {
+    font-size: 85px;
+  }
+  h1.home-head.two {
+    font-size: 85px;
+  }
+  .home-para {
+    margin-top: 40px;
+    font-size: 28px;
+    margin-right: 0;
+    width: 600px;
+  }
+  img.my_profile {
+    width: 110px;
+    height: 90px;
+    object-fit: fill;
+    border-radius: 50%;
+  }
+  /* Home Page media query starts here */
+
+  /* Experince page media query ends here */
+  .exp-duration {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  p.exp-sub-para {
+    color: #a4a5a7;
+    font-size: 22px;
+  }
+
+  h4.senior-head {
+    font-size: 28px;
+  }
+
+  h4.lead-head {
+    font-size: 28px;
+  }
+
+  h4.junior-head {
+    font-size: 28px;
+  }
+
+  h4.designer-head {
+    font-size: 28px;
+  }
+
+  p.exp-para {
+    font-size: 20px;
+  }
+  /* Experince page media query ends here */
+}
+
+/* Media query for 1280px */
