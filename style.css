@@ -190,6 +190,10 @@ section#skills {
     margin-bottom: 150px;
 }
 
+.skills-head{
+    margin-bottom: 130px;
+}
+
 .skills-subp {
     display: flex;
     justify-content: space-between;

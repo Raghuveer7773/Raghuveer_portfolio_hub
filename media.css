@@ -1,5 +1,4 @@
 /* Media query for 1280px */
-
 @media (max-width: 1280px) {
   /* About me page media query */
   h4.aboutme-data {
@@ -105,5 +104,98 @@
   }
   /* Experince page media query ends here */
 }
-
 /* Media query for 1280px */
+
+
+
+/* Media query for 768px */
+@media(max-width:768px){
+  h1.home-head.one {
+    font-size: 55px;
+  }
+  h1.home-head.two {
+    font-size: 55px;
+  }
+  h1.home-head.three {
+    font-size: 55px;
+  }
+
+  /* About me page media query */
+
+  .about-me .row{
+    flex-direction: column;
+  }
+  h4.aboutme-data {
+    font-size: 25px;
+    line-height: 50px;
+  }
+
+  p.data-para {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  p.aboutme-para {
+    font-size: 18px;
+    line-height: 35px;
+    padding-left: 35px;
+    word-spacing: 3px;
+  }
+
+  span.about-info-title {
+    color: #6610f2;
+    font-size: 50px;
+    font-weight: 400;
+  }
+  span.about-info-name {
+    font-size: 20px;
+    font-weight: 400; 
+    color: #56595c;
+}
+  /* About me page media query */
+
+
+  /* Experince section media query */
+  section#experince {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding: 50px;
+  }
+  .exp-duration {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  p.exp-sub-para {
+    color: #a4a5a7;
+    font-size: 18px;
+  }
+
+  h4.senior-head {
+    font-size: 25px;
+  }
+
+  h4.lead-head {
+    font-size: 25px;
+  }
+
+  h4.junior-head {
+    font-size: 25px;
+  }
+
+  h4.designer-head {
+    font-size: 25px;
+  }
+
+  p.exp-para {
+    font-size: 16px;
+  }
+  /* Experince section media query */
+
+
+  /* Skills */
+  .skills-head{
+    margin-bottom: 80px;
+}
+}
+/* Media query for 768px */
