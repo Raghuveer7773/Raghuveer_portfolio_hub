@@ -282,3 +282,56 @@ a.download-btn:hover {
     color: white;
 }
 /* Achievements page */
+
+
+
+/* Services starts here */
+.services-mainhead {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h3.service-number {
+  color: #d3d3d4;
+  text-align: center;
+  font-size: 40px;
+}
+
+p.service-para {
+  color: #56595c;
+  font-size: 23px;
+  text-align: center;
+}
+
+h3.service-name {
+  text-align: center;
+  font-size: 40px;
+}
+
+.col-md-4.Graphic.Design {
+  border-bottom: 1px solid #d3d3d4;
+  border-right: 1px solid #d3d3d4;
+}
+
+.col-md-4.Web.Design {
+  border-bottom: 1px solid #d3d3d4;
+  border-right: 1px solid #d3d3d4;
+}
+
+.col-md-4.Web.Development {
+  border-bottom: 1px solid #d3d3d4;
+  /* border-right: 1px solid #D3D3D4; */
+}
+
+.col-md-4.Brand.Identity {
+  border-right: 1px solid #d3d3d4;
+}
+
+.col-md-4.Business.Analysis {
+  border-right: 1px solid #d3d3d4;
+}
+
+.col-md-4.Business.Analysis {
+  border-right: 1px solid #d3d3d4;
+}
+/* Services ends here */
