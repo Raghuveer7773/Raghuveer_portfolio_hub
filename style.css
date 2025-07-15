@@ -409,3 +409,74 @@ button#pills-Marketing-tab {
   color: black;
 }
 /* projects ends here  */
+
+
+/* Project overlay starts */
+.project-head1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.project-card {
+  position: relative;
+  width: 400px;
+  height: 280px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 10px;
+  display: inline-block;
+  box-shadow: 0 5px 15px rgba(198, 116, 116, 0.1);
+}
+
+/* Image Settings */
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+/* Hover Zoom Effect */
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Overlay Layer */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(102, 16, 242, 0.6);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Show overlay on hover */
+.project-card:hover .overlay {
+  opacity: 1;
+}
+
+/* Content inside overlay */
+.overlay .content {
+  text-align: center;
+}
+
+/* Overlay Heading */
+.overlay-text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Optional: span text styling (e.g., Development) */
+.overlay .content span {
+  color: white;
+  font-size: 16px;
+}
+/* Project overlay ends */
