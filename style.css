@@ -335,3 +335,77 @@ h3.service-name {
   border-right: 1px solid #d3d3d4;
 }
 /* Services ends here */
+
+
+/* projects start here  */
+.project .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #6610f2 !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid #6610f2 !important;
+}
+
+.nav-pills .nav-link {
+  border-radius: unset !important;
+}
+
+section#project {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+img.all-project-img {
+  width: 420px;
+  height: 300px;
+  border-radius: 15px;
+  margin: 4px;
+}
+
+img.design-pr {
+  width: 420px;
+  height: 350px;
+  border-radius: 35px;
+  padding: 20px;
+}
+
+img.develop-pr {
+  width: 420px;
+  height: 350px;
+  padding: 20px;
+  border-radius: 35px;
+}
+
+img.branding-pr {
+  width: 420px;
+  height: 350px;
+  padding: 20px;
+  border-radius: 35px;
+}
+
+img.markeing-project {
+  height: 420px;
+  width: 350px;
+  padding: 20px;
+  border-radius: 35px;
+}
+
+button#pills-All-tab {
+  color: black;
+}
+
+button#pills-Design-tab {
+  color: black;
+}
+
+button#pills-Development-tab {
+  color: black;
+}
+
+button#pills-Branding-tab {
+  color: black;
+}
+
+button#pills-Marketing-tab {
+  color: black;
+}
+/* projects ends here  */
