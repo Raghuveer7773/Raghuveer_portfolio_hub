@@ -480,3 +480,25 @@ button#pills-Marketing-tab {
   font-size: 16px;
 }
 /* Project overlay ends */
+
+/* Content inside overlay */
+.overlay .content {
+  text-align: center;
+}
+
+/* Overlay Heading */
+.overlay-text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Optional: span text styling (e.g., Development) */
+.overlay .content span {
+  color: white;
+  font-size: 16px;
+}
+/* Project overlay ends */
+
+/* Client speak page starts */
