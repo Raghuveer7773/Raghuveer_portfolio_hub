@@ -502,3 +502,33 @@ button#pills-Marketing-tab {
 /* Project overlay ends */
 
 /* Client speak page starts */
+
+
+
+
+
+
+
+
+/* Frequently asked */
+.question {
+  margin-top: 100px;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #6610f2 !important;
+}
+
+.accordion-button:focus {
+  border-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+/* Frequently asked */
