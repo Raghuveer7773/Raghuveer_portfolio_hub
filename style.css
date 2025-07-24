@@ -524,3 +524,84 @@ button#pills-Marketing-tab {
   outline: none !important;
 }
 /* Frequently asked */
+
+
+/* Contact Page start */
+.contact-head1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+img.contact-img {
+  width: 60px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+button.send-message {
+  padding: 20px 35px 20px 35px;
+  border: 1px solid #6610f2;
+  color: #ffffff;
+  background-color: #6610f2;
+  border-radius: 8px;
+}
+
+h3.form-head {
+  font-size: 45px;
+}
+
+input#fname {
+  border: none;
+  border-bottom: 1px solid;
+  width: 100%;
+}
+
+input#Email {
+  border: none;
+  border-bottom: 1px solid;
+  width: 100%;
+}
+
+textarea.desc {
+  border: none;
+  border-bottom: 1px solid;
+  width: 100%;
+}
+
+label.form-label {
+  font-size: x-large;
+  font-weight: 300;
+}
+
+.form {
+  padding-left: 50px;
+}
+
+p.contct-data {
+  font-size: 60px;
+  line-height: 1;
+}
+
+span.con-head {
+  font-size: 30px;
+}
+
+span.con-data {
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+.address {
+  margin-top: 60px;
+}
+
+.contact-enjoy {
+  color: #6610f2;
+  font-size: xxx-large;
+}
+
+.contact-please {
+  color: #56595c;
+  font-size: xxx-large;
+}
+/* Contact Page end */
