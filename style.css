@@ -669,3 +669,14 @@ p.footer-para {
   color: #6610f2; /* On hover color */
 }
 /* /Footer ends  */
+
+
+@keyframes infiniterotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
