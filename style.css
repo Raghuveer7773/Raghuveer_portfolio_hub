@@ -751,5 +751,56 @@ p.footer-para {
     font-size: 20px;
     font-weight: 300;
   }
+  
+    h1.home-head.one {
+    font-size: 75px;
+  }
 
+  h1.home-head.two {
+    font-size: 75px;
+  }
+
+  h1.home-head.three {
+    font-size: 75px;
+  }
+
+  h4.senior-head {
+    font-size: 25px;
+  }
+
+  p.exp-sub-para {
+    color: #a4a5a7;
+    font-size: 20px;
+  }
+
+  p.exp-para {
+    font-size: 17px;
+  }
+
+  h4.lead-head {
+    font-size: 25px;
+  }
+
+  h4.junior-head {
+    font-size: 25px;
+  }
+
+  h4.designer-head {
+    font-size: 25px;
+  }
+
+  h4.aboutme-data {
+    font-size: 30px;
+    line-height: 55px;
+  }
+
+  p.data-para {
+    font-size: 20px;
+    line-height: 45px;
+  }
+
+  p.aboutme-para {
+    font-size: 20px;
+    line-height: 45px;
+  }
 }
