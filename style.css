@@ -686,4 +686,70 @@ p.footer-para {
     width: 30%;
   }
 }
+
+
 /* media query  for 1280 px*/
+@media (max-width: 1024px) {
+  h3.service-name {
+    font-size: 30px;
+  }
+
+  p.service-para {
+    font-size: 18px;
+  }
+
+  span.about-info-title {
+    color: #6610f2;
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  span.about-info-name {
+    font-size: 20px;
+    font-weight: 400;
+    color: #56595c;
+  }
+
+  h4.award-head {
+    font-size: 25px;
+  }
+
+  h5.awa-no {
+    color: #c3c4c5;
+    font-size: 25px;
+  }
+
+  h5.award-year {
+    color: #8a8c8e;
+    font-size: 25px;
+  }
+
+  span.con-head {
+    font-size: 25px;
+  }
+
+  span.con-data {
+    opacity: 0.8;
+    font-size: 15px;
+  }
+
+  .contact-enjoy {
+    color: #6610f2;
+    font-size: xx-large;
+  }
+
+  .contact-please {
+    color: #56595c;
+    font-size: xx-large;
+  }
+
+  h3.form-head {
+    font-size: 30px;
+  }
+
+  label.form-label {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+}
