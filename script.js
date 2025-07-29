@@ -22,3 +22,17 @@
     interval1 = setInterval(changeNumber,changeTime);
   }
 }(jQuery));
+
+$(document).ready(function(){
+
+  $('.count-up').counter();
+  $('.count1').counter();
+  $('.count2').counter();
+  $('.count3').counter();
+  
+  new WOW().init();
+  
+  setTimeout(function () {
+    $('.count5').counter();
+  }, 3000);
+});
