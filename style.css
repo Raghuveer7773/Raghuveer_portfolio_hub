@@ -4,22 +4,7 @@ body
   font-optical-sizing: auto;
 }
 
-/* Header */
-.main-header{
-    margin-top: 10px;
-}
 
-img.head-img-logo {
-    width: 30px;
-    height: 30px;
-}
-
-ul.connect-link {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-}
-/* Header  */
 
 
 
