@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raghuveer_portfolio_hub</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slick.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="slick-theme.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +18,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script defer src="script.js"></script>
 
 </head>
 
@@ -146,34 +149,46 @@
                 </div>
                 <div class="about-experince" style="margin-top: 50px;">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                             <div class="d-flex align-items-center Projects-Delivered" style="gap: 20px;">
-                                <span class="about-info-title">04+</span>
+                                <h4 class="Counter-num">
+                                <span class="about-info-title d-inline-block count-up" data-from="0" data-to="8" data-time="2000">08</span>
+                                <span class="about-info-title">+</span>
+                                </h4>
                                 <span class="about-info-name">
                                     Projects <br />
                                     Delivered
                                 </span>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                             <div class="d-flex align-items-center Happy-Clients" style="gap: 20px;">
-                                <span class="about-info-title">05+</span>
+                                <h4 class="Counter-num">
+                                <span class="about-info-title d-inline-block count1" data-from="0" data-to="5" data-time="2000">05</span>
+                                <span class="about-info-title">+</span>
+                                </h4>
                                 <span class="about-info-name">
                                     Happy <br />
                                     Clients</span>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                             <div class="d-flex align-items-center Years-of-Experience" style="gap: 20px;">
-                                <span class="about-info-title">02+</span>
+                                <h4 class="Counter-num">
+                                <span class="about-info-title d-inline-block count2" data-from="0" data-to="3" data-time="2000">03</span>
+                                <span class="about-info-title">+</span>
+                                </h4>
                                 <span class="about-info-name">
                                     Months of<br />
                                     Experience</span>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                             <div class="d-flex align-items-center Client-Retention" style="gap: 20px;">
-                                <span class="about-info-title">95%</span>
+                                <h4 class="Counter-num">
+                                <span class="about-info-title d-inline-block count3" data-from="0" data-to="95" data-time="2000">95</span>
+                                <span class="about-info-title">%</span>
+                                </h4>
                                 <span class="about-info-name">
                                     Client<br />
                                     Retention</span>
@@ -948,7 +963,6 @@
     </footer>
 
     <!-- script -->
-    <script src="script.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
